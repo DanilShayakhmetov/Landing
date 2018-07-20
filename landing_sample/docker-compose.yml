@@ -4,7 +4,7 @@ volumes:
   cache.app:
 services:
   nginx:
-    container_name: nginx.catalog
+    container_name: nginx.land
     build:
       context: ./
       dockerfile: Dockerfile_NGINX
@@ -16,7 +16,7 @@ services:
       - ./local:/local
       - ./host.conf:/etc/nginx/conf.d/default.conf
   php:
-    container_name: php.catalog
+    container_name: php.land
     build:
       context: ./
       dockerfile: Dockerfile_PHP
