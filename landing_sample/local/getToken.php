@@ -34,6 +34,6 @@ function get_Token()
         $errLog = "cURL Error #:" . $err;
         return $errLog;
     } else {
-        echo $response;
+        return $response;
     }
 }
