@@ -39,7 +39,6 @@ curl_setopt_array($curl, array(
     CURLOPT_HTTPHEADER => array(
         "cache-control: no-cache",
         "content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW",
-        "postman-token: ff3fdc64-6269-7711-c368-e480f8c7c442"
     ),
 ));
 
